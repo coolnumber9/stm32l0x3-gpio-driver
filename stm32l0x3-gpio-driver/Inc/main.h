@@ -2,7 +2,7 @@
  * main.h
  *
  *  Created on: 9 Feb 2019
- *      Author: kdamo
+ *      Author: coolnumber9
  */
 
 #ifndef MAIN_H_
