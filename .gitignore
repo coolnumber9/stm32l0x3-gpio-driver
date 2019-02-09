@@ -1,74 +1,52 @@
 # Created by https://www.gitignore.io/api/eclipse
+# Edited by Kristoffer Dominic Amora (https://github.com/coolnumber9)
 # Edit at https://www.gitignore.io/?templates=eclipse
 
 ### Eclipse ###
 
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
+stm32l0x3-gpio-driver/.metadata
+stm32l0x3-gpio-driver/bin/
+stm32l0x3-gpio-driver/tmp/
+stm32l0x3-gpio-driver/*.tmp
+stm32l0x3-gpio-driver/*.bak
+stm32l0x3-gpio-driver/*.swp
+stm32l0x3-gpio-driver/*~.nib
+stm32l0x3-gpio-driver/local.properties
+stm32l0x3-gpio-driver/.settings/
+stm32l0x3-gpio-driver/.loadpath
+stm32l0x3-gpio-driver/.recommenders
 
 # External tool builders
-.externalToolBuilders/
+stm32l0x3-gpio-driver/.externalToolBuilders/
 
 # Locally stored "Eclipse launch configurations"
-*.launch
-
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
+stm32l0x3-gpio-driver/*.launch
 
 # CDT-specific (C/C++ Development Tooling)
-.cproject
+stm32l0x3-gpio-driver/.cproject
 
 # CDT- autotools
-.autotools
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
-.buildpath
+stm32l0x3-gpio-driver/.autotools
 
 # sbteclipse plugin
-.target
-
-# Tern plugin
-.tern-project
-
-# TeXlipse plugin
-.texlipse
-
-# STS (Spring Tool Suite)
-.springBeans
+stm32l0x3-gpio-driver/.target
 
 # Code Recommenders
-.recommenders/
+stm32l0x3-gpio-driver/.recommenders/
 
 # Annotation Processing
-.apt_generated/
-
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
+stm32l0x3-gpio-driver/.apt_generated/
 
 ### Eclipse Patch ###
 # Eclipse Core
-.project
+stm32l0x3-gpio-driver/.project
 
 # JDT-specific (Eclipse Java Development Tools)
-.classpath
+stm32l0x3-gpio-driver/.classpath
 
 # Annotation Processing
-.apt_generated
+stm32l0x3-gpio-driver/.apt_generated
 
-.sts4-cache/
+stm32l0x3-gpio-driver/.sts4-cache/
 
 # End of https://www.gitignore.io/api/eclipse
