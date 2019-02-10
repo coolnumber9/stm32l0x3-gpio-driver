@@ -134,6 +134,10 @@
   */
 void SystemInit (void)
 {
+	DBGMCU->CR |= DBGMCU_CR_DBG_STOP; /* To be able to debug in stop mode */
+	DBGMCU->CR |= DBGMCU_CR_DBG_SLEEP ;
+	DBGMCU->CR |= DBGMCU_CR_DBG_STANDBY;
+
 /*!< Set MSION bit */
   RCC->CR |= (uint32_t)0x00000100U;
 
